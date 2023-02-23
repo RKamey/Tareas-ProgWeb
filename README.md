@@ -1,2 +1,2 @@
-# practica1
-Instalar un paquete de Node JS
+# Prácticas para la materia Programación Web
+
