@@ -8,7 +8,7 @@ let greet2a = require('./greet2').greet;
 greet();
 
 // Al tratar de invocar me dice que no es una función porque es un objeto
-greet2a.greet();
+// greet2a.greet();C
 
 const greet3 = require('./greet3'); // objeto construido
 console.log(greet3);
