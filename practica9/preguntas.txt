@@ -1,0 +1,38 @@
+==== [ Middleware Express ] ====
+
+Investiga los siguientes conceptos y contesta las siguientes preguntas:
+
+1.- ¿Qué es un middleware? El middleware es una capa de software que se encuentra entre la capa de hardware y la capa de aplicaciones de un sistema y permite que los componentes de software se comuniquen entre sí de manera eficiente
+
+2.- ¿Cuál es el significado del término "MEAN stack"? MEAN Stack es un acrónimo que representa una pila completa de tecnologías de desarrollo web, que se utilizan en conjunto para desarrollar aplicaciones web modernas. Las letras representan las siguientes tecnologías:
+	MongoDB: una base de datos NoSQL que almacena datos en formato JSON (JavaScript Object Notation) y permite una escalabilidad horizontal.
+	Express.js: un framework de servidor web de Node.js que proporciona un conjunto de herramientas para construir aplicaciones web robustas y escalables.
+	Angular: un framework de JavaScript de código abierto desarrollado por Google que se utiliza para construir aplicaciones web de una sola página (Single Page Applications - SPA).
+	Node.js: una plataforma de desarrollo de software basada en JavaScript que se utiliza para construir aplicaciones web escalables del lado del servidor.
+
+3.- ¿Cuáles son las características/funcionalidades que Express ofrece como middleware? Express.js es un framework de servidor web para Node.js que proporciona  
+un conjunto de herramientas para construir aplicaciones robustas y escalables. Express ofrece una serie de características y funcionalidades para el desarrollo de aplicaciones web, incluyendo:
+	Enrutamiento: Express permite definir rutas de URL para manejar solicitudes HTTP de forma fácil y estructurada.
+	Middleware: Express ofrece una variedad de middleware integrado y también permite agregar middleware personalizado. El middleware es una función que se ejecuta antes de que se maneje la solicitud y puede realizar tareas como la autenticación de usuarios, le gestión de cookies y sesiones, la compresión de respuestas y el manejo de errores.
+	Plantillas de vistas: Express admite varios motores de plantillas como Pug, EJS, Handlebars, etc. , que se utilizan para generar HTML dinámicamente y enviarlo al cliente.
+	Controladores: Express permite definir controladores que manejan la lógica de negocios de la aplicación y se llaman desde las rutas.
+	Manejo de errores: Express tiene un sistema de manejo de errores incorporado que permite manejar erores de manera centralizada y personalizada en la aplicación.
+	Servicios web: Express se puede utilizar para construir servicios web RESTful y SOAP.
+
+4.- ¿Qué es una ruta en express? Una ruta es una forma de asociar un URL específico con una función o controlador que maneja las solicitudes HTTP enviadas a esa URL. Las rutas son parte fundamental de la estructura de una aplicación Express y permiten definir cómo se manejan las solicitudes entrantes.
+
+5.- ¿Qué es un "route handler" en express y para qué se utiliza? un "route handler" (manejador de ruta) es una función que se utiliza para manejar una solicitud HTTP a una ruta específica en una aplicación. El route handler se ejecuta cuando se realiza una solicitud a la ruta correspondiente, y se utiliza para realizar tareas como la validación de datos, la lectura o escritura de datos de la base de datos, la generación de respuestas HTML dinámicas, y más.
+
+6.- ¿Cuáles son los 2 parámetros necesarios para crear una ruta para el método GET con express, ejemplo: app.get()? Para crear una ruta para el método GET en Express se necesitan dos parámetros:
+	La ruta a la que se asociará la función de controlador. Esto se especifica como una cadena que representa la ruta URL.
+	Una función de controlador que se ejecutará cuando se acceda a la ruta. Esta función se encarga de manejar la solicitud HTTP y generar la respuesta adecuada. En Express, esta función de controlador toma dos objetos como argumentos: 'req' (la solicitud HTTP entrante) y 'res' (la respuesta HTTP que se enviará al cliente.
+
+7.- ¿Qué es lo que hace la instrucción res.send()? Se utiliza en Express.js para enviar una respuesta HTTP al cliente que realizó una solicitud a la ruta correspondiente. Se puede enviar una respuesta en diferentes tipos de contenidos, como texto, HTML, JSON y más. El método send() acepta un parámetro como entrada, puede ser de cualquier tipo, dependiendo el tipo de contenido que se está enviando. En general, res.send() se utiliza para enviar una respuesta simple, como una página HTML, un archivo de texto plano o un objeto JSON. Para respuestas más complejas o personalizadas se puede utilizar otros métodos de respuesta como 'res.json()' para enviar una respuesta en formato JSON, 'res.sendFile()' para enviar un archivo estático, o 'res.render()' para renderizar una plantilla HTML con datos dinámicos.
+
+8.- ¿Cuál es el motivo por el que express es tan popular? Express es muy popular por varias reazones:
+Es facil de aprender y usar: Express es una biblioteca simple y facil de usar que se basa en el patrón de middleware y ofrece una API intuitiva y bien documentada.
+Es muy flexible: Express es altamente personalizable y se peude utilizar para crear una amplia variedad de aplicaciones web, desde aplicaciones móviles y aplicaciones web de una sola página (SPA) hasta aplicaciones empresariales de gran escala.
+Tiene una gran comunidad de desarrolladores: Express tiene una gran comunidad de desarrolladores activos que contribuyen constantemente con nuevas características, correciones de errores y paquetes adicionales de middleware.
+Tiene una gran cantidad de paquetes de middleware: Express cuenta con una gran cantidad de paquetes de middleware disponibles que permiten a los desarrolladores agregar funcionalidades adicionales a sus aplicaciones de manera rápida y fácil.
+Es ampliamente utilizado: Express es una de las bibliotecas web más populares en Node.js y se utiliza en una amplia variedad de aplicaciones web de todo el mundo. Como resultado, hay una gran cantidad de recursos en línea, documentación y ejemplos disponibles para ayudar a los desarrolladores a utilizar Express de manera efectiva.
+	
