@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/assets/style.css" type="text/css">
+    </head>
+    <body>
+        <h2>Hola desde EJS</h2>
+
+        <h1>El número <%= NUM %> es <%= NUM % 2 === 0 ? "Par" : "Impar" %></h1>
+        <ul>
+            <% for (let i = 1; i <= NUM; i++) { %>
+                <li><%= i %></li>
+            <% } %>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/assets/style.css" type="text/css">
+    </head>
+    <body>      
+        <table>
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Edad</th>
+              </tr>
+            </thead>
+            <tbody>
+              <% data.forEach(function(persona) { %>
+                <tr>
+                  <td><%= persona.id %></td>
+                  <td><%= persona.nombre %></td>
+                  <td><%= persona.apellido %></td>
+                  <td><%= persona.edad %></td>
+                </tr>
+              <% }); %>
+            </tbody>
+          </table>
+    </body>
+</html>

@@ -1,0 +1,20 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* == [Tabla de personas.ejs] == */
+td, th {
+    padding: 5px;
+}
+
+thead {
+    background-color: #999999;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #b7e0a5;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #ffdd99;
+  }
