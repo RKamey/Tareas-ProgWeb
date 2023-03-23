@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/style.css" type="text/css">
+  </head>
+  <body>  
+      <!-- Imprimimos los valores del parámetro ID y el query string MESSAGE -->
+      <h1>Person: <%= ID %></h1>
+      <h2>Mensaje: <%= MESSAGE %></h2>
+      
+      <!-- Imprimimos el mensaje las veces que nos indiquen en el query string TIMES -->
+      <% function imprimirMensaje() { %>
+        <% for (let i = 0; i < TIMES; i++) { %>
+          <li><%= MESSAGE %> <%= ID %></li>
+        <% } %>
+      <% } %>
+      
+      <!-- Imprimimos el mensaje dependiendo del valor del query string MESSAGE -->
+      <% switch (MESSAGE) {
+        case 'Hola': %>
+            <% imprimirMensaje() %>
+        <% break;
+        case 'Adios': %>
+            <% imprimirMensaje() %>
+        <% break;
+        default: %>
+            <li>El mensaje no es válido</li>
+        <% break
+      } %>
+  </body>
+</html>
