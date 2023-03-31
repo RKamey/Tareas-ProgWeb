@@ -19,4 +19,5 @@ router.post('/addStudent', (req, res) => {
     });
 });
 
+// Exportamos el router para que pueda ser usado en el servidor.
 module.exports = router;
