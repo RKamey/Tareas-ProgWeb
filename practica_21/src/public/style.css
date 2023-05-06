@@ -1,0 +1,181 @@
+/* Estilos para el body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilos para los títulos */
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  /* Estilos para las tablas */
+  table {
+    border-collapse: collapse;
+    margin: 50px auto;
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+    padding: 10px;
+  }
+
+  th {
+    background-color: #333;
+    color: white;
+  }
+
+  td {
+    background-color: #ccc;
+  }
+
+  tr:nth-child(even) td {
+    background-color: #ddd;
+  }
+
+  tr:nth-child(odd) td {
+    background-color: #ccc;
+  }
+  /* Estilos para los enlaces */
+  a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    background-color: #333;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background-color: #666;
+    color: white;
+  }
+
+  li a {
+    color: #333;
+    background-color: #ccc;
+    border-radius: 5px;
+  }
+
+  li a:hover {
+    color: #666;
+    background-color: #ddd;
+  }
+  
+  /* Estilos para los formularios */
+  form {
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="submit"] {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #666;
+  }
+
+  /* Estilos para las listas */
+  ul {
+    margin-top: 50px;
+  }
+  
+  li {
+    margin: 10px 0;
+  }
+  
+  li a {
+    color: #333;
+  }
+  
+  li a:hover {
+    color: #666;
+  }
+
+  /* Estilos para los botones Update y Delete */
+  a.btnUpdate {
+    background-color: #0077b6;
+    color: white;
+  }
+  
+  a.btnUpdate:hover {
+    background-color: #0096c7;
+    color: white;
+  }
+  
+  a.btnDelete {
+    background-color: #e63946;
+    color: white;
+  }
+  
+  a.btnDelete:hover {
+    background-color: #f77f00;
+    color: white;
+  }
+
+  .button-add {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    background-color: #2ecc71;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .button-add:hover {
+    background-color: #27ae60;
+    color: white;
+  }
+
+  .submit-button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #008000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #006600;
+}
+
+.update-button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.update-button:hover {
+  background-color: #0096c7;
+}
+  
+  
+  

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Personas</title>
+    <link rel="stylesheet" href="/assets/style.css" type="text/css">
+  </head>
+  <body>
+    
+    <h1>Lista de Personas</h1>
+
+    <table>
+      <tr>
+        <th>NSS</th>
+        <th>Nombre</th>
+        <th>Edad</th>
+        <th>Tipo de Sangre</th>
+        <th>Actualizar</th>
+        <th>Eliminar</th>
+      </tr>
+      
+      <% Object.keys(Persons).forEach((prop) => { %>
+        <tr>
+          <td><%= Persons[prop].nss %></td>
+          <td><%= Persons[prop].nombre %></td>
+          <td><%= Persons[prop].edad %></td>
+          <td><%= Persons[prop].tipoSangre %></td>
+          <td><a href="<%= `findById/${Persons[prop]._id}`%>" class="btnUpdate">Update</a></td>
+          <td><a href="<%= `deletePerson/${Persons[prop]._id}`%>" class="btnDelete">Delete</a></td>
+        </tr>
+      <% }); %>
+    </table>
+    
+    <a href="./" >Volver</a>
+    <a href="./addPerson" class="button-add">Agregar</a>
+  </body>
+</html>
