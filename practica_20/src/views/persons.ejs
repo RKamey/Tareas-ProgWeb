@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Personas</title>
+    <link rel="stylesheet" href="/assets/style.css" type="text/css">
+  </head>
+  <body>
+    
+    <table>
+      <tr>
+        <th>NSS</th>
+        <th>Nombre</th>
+        <th>Edad</th>
+        <th>Tipo de Sangre</th>
+      </tr>
+      
+      <% for (let i = 0; i < Persons.length; i++) { %>
+        <tr>
+          <td><%= Persons[i].nss %></td>
+          <td><%= Persons[i].nombre %></td>
+          <td><%= Persons[i].edad %></td>
+          <td><%= Persons[i].tipoSangre %></td>
+        </tr>
+      <% } %>
+    </table>
+    
+    <a href="./">Volver</a>
+    <a href="./addPerson">Agregar</a>
+  </body>
+</html>

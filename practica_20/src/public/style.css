@@ -1,0 +1,86 @@
+/* Estilos para el body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilos para los títulos */
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  /* Estilos para las tablas */
+  table {
+    border-collapse: collapse;
+    margin: 50px auto;
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  /* Estilos para los enlaces */
+  a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background-color: #666;
+  }
+  
+  /* Estilos para los formularios */
+  form {
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="submit"] {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #666;
+  }
+  
+  /* Estilos para las listas */
+  ul {
+    margin-top: 50px;
+  }
+  
+  li {
+    margin: 10px 0;
+  }
+  
+  li a {
+    color: #333;
+  }
+  
+  li a:hover {
+    color: #666;
+  }
+  
